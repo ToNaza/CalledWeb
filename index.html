@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalledWeb</title>
+    <link rel="icon" href="./Dzen.webp">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/bfec730d56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+<p class="p12">Якщо вам потрібен Назар а його нема в мережі, просто надішліть повідомлення.</p>
+<p>If you need Nazar and he is not online, just send a message.</p>
+    <form name="submit-to-google-sheet" id="MyForm">
+        <div class="osnova">
+
+
+        <div class="vvod"></div>
+        <label for="Username" ></label><br>
+        <input type="text" name="Username" id="Username3" onkeyup="checkInputs()" class="vvod1"  placeholder="Your Tg Username "><br>
+
+        <label for="Username" ></label><br>
+        <input type="text" name="email" id="email3" class="vvod2"  placeholder="What chat?"><br>
+
+
+      <button type="submit" class="ok" id="okO" value="Submit" disabled  onclick="openPopup()"  ><i class="fas fa-paper-plane"></i></button>
+     </div>
+    </form>
+
+    <div id="Soop">
+        <div class="Soop_box">
+            <p class="zagol">Thank you for your request </p>
+            <p class="text">please wait.</p>
+        </div>
+    </div>
+
+    </main>
+    <footer>
+        <p onclick="location.href='https://tonaza.github.io/Naza_Hub/'">Головна стоірнка Назара, клацни на текст аби відкрити</p>
+    </footer>
+</body>
+</html>
